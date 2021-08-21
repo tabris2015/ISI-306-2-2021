@@ -7,7 +7,7 @@ Esta práctica cuenta con dos archivos principales:
   2. **grader.py**: Archivo con casos de prueba para calificar el ejercicio.
 
 ## Instrucciones
-Usted deberá implementar una clase `Evaluador` en el archico `estudiantes.py` que cumpla con las siguientes características:
+Usted deberá implementar una clase `Evaluador` en el archivo `estudiantes.py` que cumpla con las siguientes características:
   - En la inicialización, deberá recibir una **lista de diccionarios** correspondiente con el registro de notas de cada estudiante,
     la lista tiene la siguiente estructura:
     ```python
@@ -30,7 +30,7 @@ Usted deberá implementar una clase `Evaluador` en el archico `estudiantes.py` q
     Cada elemento de la lista es un diccionario con los siguientes keys:
       - nombre: nombre del estudiante
       - apellido: apellido del estudiante
-      - notas: es un diccionario con elementos correspondientes a {<materia>: <nota>}
+      - notas: es un diccionario con elementos correspondientes a {materia: nota}
       - extras: puntos extra obtenidos por el estudiante
       - asistencia: porcentaje de asistencia a las clases del estudiante
     
